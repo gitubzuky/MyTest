@@ -5,6 +5,7 @@ import android.view.View;
 
 /**
  * Created by Administrator on 2016/10/14.
+ * 辣鸡版 RvAdapter 适用于RecyclerView
  */
 public abstract class BaseRvAdapter<BH extends BaseRvAdapter.ViewHolder> extends RecyclerView.Adapter<BH> {
 

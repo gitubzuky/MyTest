@@ -7,6 +7,8 @@ import android.support.annotation.ColorRes;
  */
 public interface IView {
     void setTitle(String text);
+
     void setTitleTextColor(@ColorRes int color);
+
     void showToast(String toast, int duration);
 }

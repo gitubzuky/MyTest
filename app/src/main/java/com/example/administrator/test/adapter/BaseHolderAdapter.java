@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 /**
- * 辣鸡版 RvAdapter
+ * 辣鸡版 RvAdapter 适用于ListView
  * @param <VH>
  */
 public abstract class BaseHolderAdapter<VH extends BaseHolderAdapter<VH>.ViewHolder> extends BaseAdapter {

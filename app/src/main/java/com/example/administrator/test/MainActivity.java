@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements IView, AdapterVie
 
     @Override
     public void showToast(String toast, int duration) {
-        switch (duration){
+        switch (duration) {
             case Toast.LENGTH_SHORT:
                 Toast.makeText(MainActivity.this, toast, Toast.LENGTH_SHORT).show();
                 break;
